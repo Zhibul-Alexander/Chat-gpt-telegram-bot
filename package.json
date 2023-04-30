@@ -1,0 +1,36 @@
+{
+  "name": "chat-gpt-telegram-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zhibul-Alexander/Chat-gpt-telegram-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zhibul-Alexander/Chat-gpt-telegram-bot/issues"
+  },
+  "homepage": "https://github.com/Zhibul-Alexander/Chat-gpt-telegram-bot#readme",
+  "devDependencies": {
+    "@types/config": "^3.3.0",
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.22",
+    "prettier": "^2.8.8"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "axios": "^1.4.0",
+    "config": "^3.3.9",
+    "fluent-ffmpeg": "^2.1.2",
+    "openai": "^3.2.1",
+    "telegraf": "^4.12.2"
+  }
+}
